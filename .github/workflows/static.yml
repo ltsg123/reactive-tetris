@@ -34,7 +34,7 @@ jobs:
         with:
           url: https://github.com/ltsg123/flv2webcodecs/releases/download/v0.0.1/test.zip
           # destination folder
-          destination: "./public"
+          destination: "./dist"
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
