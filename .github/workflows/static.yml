@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: "./dist"
+          path: "./"
 
       - name: schmiddim-wget-unzip
         uses: schmiddim/action-wget-unzip@v2
